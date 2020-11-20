@@ -65,10 +65,7 @@ class MySQLConnect(object):
 
 def test():
     """ 测试case """
-    conn = MySQLConnect(host="161.189.114.29",user="sm_cloud", password="KGTXWbbsxMCRefXp", database="sm_cloud")
-    one = conn.select_one("select * from sm_user where id = 155")
-    print(one)
-
+    pass
 
 if __name__ == '__main__':
     test()
